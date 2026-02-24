@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food <Details></Details>
+    </title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">Chuks Kitchen</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Explore</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">My Orders</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Account</a></li>
+                </ul>
+                <a href="#" class="btn login-btn">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <div class="container my-4">
+        <div class="row g-4">
+
+            <!-- Left Image -->
+            <div class="col-lg-6">
+                <img src="images/b41e41928e24c85d53319e659f48f93770475506.png" class="food-img rounded"
+                    alt="Jollof Rice">
+            </div>
+
+            <!-- Right Order Details -->
+            <div class="col-lg-6">
+                <div class="card card-custom p-4 shadow-sm">
+
+                    <div class="d-flex justify-content-between">
+                        <h4>Jollof Rice with Fried Chicken</h4>
+                        <button class="btn-close"></button>
+                    </div>
+
+                    <p class="price">₦2,800</p>
+
+                    <p class="text-muted small">
+                        Our signature Jollof rice, cooked to perfection with aromatic spices,
+                        served with juicy golden fried chicken. A classic Nigerian comfort food.
+                    </p>
+                    <div class="container py-4" style="max-width:700px;"></div>
+                    <!-- Top Tags -->
+                    <div class="d-flex flex-wrap gap-2 mb-4 text-muted">
+                        <div><span class="icon-orange">🕒</span> Mildly spicy</div>
+                        <div><span class="icon-orange">🕒</span> Vegetarian option available</div>
+                        <div><span class="icon-warning">🕒</span> <a href="#" class="text-decoration-none">View
+                                Allergies</a></div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <!-- Protein Section -->
+                <h4 class="mb-3">Choose Your Protein</h4>
+
+                <div class="option-box d-flex justify-content-between align-items-center">
+                    <div class="form-check m-0">
+                        <input class="form-check-input" type="radio" name="protein" checked>
+                        <label class="form-check-label ms-2">
+                            Fried Chicken
+                        </label>
+                    </div>
+                    <div class="badge-default">(Default)</div>
+                </div>
+
+                <div class="option-box d-flex justify-content-between align-items-center">
+                    <div class="form-check m-0">
+                        <input class="form-check-input" type="radio" name="protein">
+                        <label class="form-check-label ms-2">
+                            Grilled Fish
+                        </label>
+                    </div>
+                    <div class="price">+₦500</div>
+                </div>
+
+                <div class="option-box d-flex justify-content-between align-items-center">
+                    <div class="form-check m-0">
+                        <input class="form-check-input" type="radio" name="protein">
+                        <label class="form-check-label ms-2">
+                            Beef
+                        </label>
+                    </div>
+                    <div class="price">+₦700</div>
+                </div>
+
+                <!-- Extra Sides -->
+                <h4 class="mt-4 mb-3">Extra Sides (Optional)</h4>
+
+                <div class="option-box d-flex justify-content-between align-items-center">
+                    <div class="form-check m-0">
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label ms-2">
+                            Fried Plantain
+                        </label>
+                    </div>
+                    <div class="price">+₦700</div>
+                </div>
+
+                <div class="option-box d-flex justify-content-between align-items-center">
+                    <div class="form-check m-0">
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label ms-2">
+                            Coleslaw
+                        </label>
+                    </div>
+                    <div class="price">+₦500</div>
+                </div>
+
+                <div class="option-box d-flex justify-content-between align-items-center">
+                    <div class="form-check m-0">
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label ms-2">
+                            Extra Pepper Sauce
+                        </label>
+                    </div>
+                    <div class="price">+₦300</div>
+                </div>
+
+                <!-- Special Instructions -->
+                <h4 class="mt-4 mb-3">Special Instructions</h4>
+
+                <textarea class="form-control p-3" rows="4">
+E.g no onion, food is too spicy, food is too hot hhhhhhhhhh food is tasty
+    </textarea>
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-2">
+                    <h3>Chuks Kitchen</h3>
+                    <p>Bringing the authentic flavors of Nigerian home cooking to your table.</p>
+                </div>
+
+                <div class="col-md-4 fw-light">
+                    <h6>Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li>Home</li>
+                        <li>Explore</li>
+                        <li>My Orders</li>
+                        <li>Account</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 fw-light">
+                    <h6>Contact Us</h6>
+                    <p>+234 801 234 5678<br>
+                        info@chukskitchen.com<br>
+                        123 Adeola St, Lagos, Nigeria</p>
+                </div>
+                <div class="col-md-2 mb-3 fw-lighter">
+                <h6>Social</h6>
+                <a href="#">Facebook</a><br>
+                <a href="#">Twitter</a><br>
+                <a href="#">LinkedIn</a><br>
+                <a href="#">Instagram</a>
+            </div>
+
+      
+
+            </div>
+
+            <hr class="bg-light">
+            <p class="text-start small">© 2025 All Rights Reserved</p>
+        </div>
+    </div>
+
+    <!-- Scroll Top -->
+    <div class="scroll-top">
+        ↑
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

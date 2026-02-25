@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(189, 189, 189);
+}
+
+/* Navbar */
+.navbar-brand {
+    color: #ff6f00 !important;
+    font-weight: 600;
+    font-family: 'Island Moments', cursive;
+    font-size: x-large;
+}
+
+.login-btn {
+    background-color: #ff6b00;
+    color: white;
+    border-radius: 6px;
+    padding: 6px 18px;
+}
+
+.btn-orange {
+    background-color: #ff6f00;
+    color: #fff;
+    border: none;
+}
+
+.btn-orange:hover {
+    background-color: #e65100;
+    color: #fff;
+}
+
+/* Order Card */
+.order-card {
+    max-width: 450px;
+    margin: 60px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 6px;
+}
+
+.toggle-btn {
+    width: 50%;
+    border: none;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.toggle-active {
+    background-color: #ff6f00;
+    color: #fff;
+}
+
+.toggle-inactive {
+    background-color: #cfcfcf;
+    color: #000;
+}
+
+textarea {
+    resize: none;
+}
+
+.footer {
+    background-color: #6b3e26;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer h3 {
+    font-family: 'Island Moments', cursive;
+    color: #ff6b00;
+    font-weight: lighter;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #0d6efd;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+/* Desktop centered width */
+@media (min-width:992px){
+    .order-card{
+        max-width:480px;
+        margin:auto;
+    }
+}
+
+/* Mobile full width */
+@media (max-width:991px){
+    .order-wrapper{
+        padding:30px 10px;
+    }
+    .order-card{
+        padding:20px;
+    }
+}
